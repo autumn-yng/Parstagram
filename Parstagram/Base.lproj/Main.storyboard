@@ -244,13 +244,13 @@
         <!--Camera View Controller-->
         <scene sceneID="f0j-uJ-h3d">
             <objects>
-                <viewController id="8dU-mp-Izq" customClass="CameraViewController" customModule="Parstagram" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="8dU-mp-Izq" customClass="CameraViewController" customModule="Parstagram" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="djx-ar-G1u">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="image_placeholder" translatesAutoresizingMaskIntoConstraints="NO" id="HW3-TU-7Qv">
-                                <rect key="frame" x="19.5" y="103" width="375" height="364"/>
+                                <rect key="frame" x="19.5" y="147" width="375" height="364"/>
                                 <gestureRecognizers/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="375" id="K7t-PQ-aRn"/>
@@ -261,7 +261,7 @@
                                 </connections>
                             </imageView>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="zDC-d5-nws">
-                                <rect key="frame" x="57" y="504" width="300" height="34"/>
+                                <rect key="frame" x="57" y="548" width="300" height="34"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="300" id="9rH-QQ-xh9"/>
                                 </constraints>
@@ -269,7 +269,7 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xlb-WR-V21">
-                                <rect key="frame" x="157" y="633" width="100" height="31"/>
+                                <rect key="frame" x="157" y="677" width="100" height="31"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="100" id="ahZ-dB-Acs"/>
                                 </constraints>

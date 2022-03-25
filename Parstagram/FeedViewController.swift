@@ -81,7 +81,9 @@ class FeedViewController: UIViewController, UITableViewDelegate, UITableViewData
         // note that inside the Comments object, the key "author" also doesn't store the object directly but the referenced, so we must include this includeKey() line
         query.includeKey("Comments.author")
         query.limit = 20
-//        query.order(byDescending: "createdAt")
+        
+        query.order(byDescending: "createdAt")
+        
         query.findObjectsInBackground { posts, error in
             // if successfully get the posts
             if posts != nil {
